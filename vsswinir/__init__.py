@@ -13,7 +13,7 @@ from functorch.compile import memory_efficient_fusion
 
 from .network_swinir import SwinIR
 
-__version__ = "1.0.0"
+__version__ = "2.0.0"
 
 os.environ["CUDA_MODULE_LOADING"] = "LAZY"
 
